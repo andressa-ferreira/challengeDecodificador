@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador De Texto</title>
+</head>
+<body>
+        <div class="container">
+          <div class="encriptar">
+            <textarea name="texto" class="texto"  id="texto" cols="30" rows="10" placeholder="digite seu texto aqui. :D "></textarea>
+    
+            <div class="aviso">
+              <p>Somente letras minúsculas e sem acentos.</p>
+            </div>
+            <div class="botoes">
+              <button class="btn-encriptar" type="button" onclick="encriptar()"> Encriptar
+              </button>
+              <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()"/>
+            </div>
+          </div>
+          <div class="encriptado">
+            <img src="img/boneco.png" alt="" id="boneco" />
+            <div class="mensagem-encriptado" id="mensagem-encriptado">
+              <h2 id="titulo-mensagem"> Nenhum texto foi encontrado. D: </h2>
+              <p id="paragrafo"> Digite o texto que deseja encriptar ou desencriptar.</p>
+            </div>
+          </div>
+        </div>
+     
+      <script src="script.js"></script>
+    
+    
+</body>
+</html>
